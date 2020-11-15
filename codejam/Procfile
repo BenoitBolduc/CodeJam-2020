@@ -1,0 +1,2 @@
+release: java -cp "target/dependency/*":target/classes com.flouflou.codejam.utils.DeploymentScript
+web: java -cp "target/dependency/*":target/classes com.flouflou.codejam.App
